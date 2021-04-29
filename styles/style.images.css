@@ -1,0 +1,43 @@
+header {
+    background-color: royalblue;
+    padding: 50px;
+}
+
+header nav {
+    display: flex;
+    justify-content: space-around;
+}
+
+body {
+    background-color: beige;
+    font-family: 'PT Sans', sans-serif;
+}
+
+header img {
+    width: 75px;
+    background-color: beige;
+    border-radius: 30%;
+}
+header nav a {
+    font-size: 40px;
+    color: white;
+    text-decoration: none;
+    font-style: italic;
+}
+.troll {
+    text-align:center;
+    font-size:4em;
+    color: royalblue;
+}
+div {
+    margin-top:100px;
+    display: flex;
+    flex-wrap:wrap;
+    justify-content: space-between;
+    width:50%;
+    margin:0 auto;
+}
+div img {
+    width:250px;
+    margin:50px;
+}

@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="styles/style.index.css">
+    <link rel="stylesheet" href="styles/style.images.css">
     <link rel="stylesheet" href="styles/normalize.css">
     <script src="scripts/index.js" async></script>
     <title>Images qui tournent</title>
@@ -12,6 +12,7 @@
 <body>
     <header>
         <nav>
+            <a href="index.html"><img src="assets/img/logo.jpg" alt="logo"></a>
             <a href="images.html">Images</a>
             <a href="calculatrice.html">Calculatrice</a>
             <a href="boutton.html">Boutton</a>
@@ -19,7 +20,13 @@
     </header>
 
     <main>
-        
+        <h1 class="troll">Les meilleurs persos de LoL</h1>
+        <div>
+            <img onclick="tournerImage()" id="pick1" src="assets/img/Teemo.jpg" alt="teemo">
+            <img onclick="tournerImage()" id="pick2" src="assets/img/Garen.jpg" alt="garen">
+            <img onclick="tournerImage()" id="pick3" src="assets/img/Twitch.jpg" alt="twitch">
+            <img onclick="tournerImage()" id="pick4" src="assets/img/Yummi.jpg" alt="yummi">
+        </div>
     </main>
 
     <footer>
