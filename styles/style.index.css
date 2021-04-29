@@ -1,0 +1,63 @@
+@import url('https://fonts.googleapis.com/css2?family=PT+Sans:ital,wght@0,400;0,700;1,400&display=swap');
+header {
+    background-color:royalblue;
+    padding:50px;
+}
+header nav {
+    display:flex;
+    justify-content: space-around;
+}
+body {
+    background-color:beige;
+    font-family: 'PT Sans', sans-serif;
+}
+header img {
+    width:75px;
+    background-color:beige;
+    border-radius:30%;
+}
+header nav a {
+    font-size:40px;
+    color:white;
+    text-decoration:none;
+    font-style:italic;
+}
+
+form {
+    width:30%;
+    margin:0 auto;
+    padding-top:50px;
+    
+}
+form div {
+    padding:20px;
+    text-align:left;
+}
+
+form div input {
+    width:100%;
+    background-color:beige;
+    border:0;
+    border-bottom:1px solid black;
+}
+form select {
+    width:30%;
+    border:0;
+    background-color:beige;
+    border-bottom: 1px solid black;
+    
+}
+form div select option {
+    text-align:center;
+}
+button {
+    border:0;
+    padding: 20px;
+    border-radius:10%;
+}
+button[type="submit"] {
+    background-color:green;
+}
+button[type="reset"] {
+    background-color: red;
+}
