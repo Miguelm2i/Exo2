@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles/style.calculatrice.css">
+    <link rel="stylesheet" href="styles/normalize.css">
+    <script src="scripts/index.js" async></script>
+    <title>Images qui tournent</title>
+</head>
+<body>
+    <header>
+        <nav>
+            <a href="index.html"><img src="assets/img/logo.jpg" alt="logo"></a>
+            <a href="images.html">Images</a>
+            <a href="calculatrice.html">Calculatrice</a>
+            <a href="boutton.html">Boutton</a>
+        </nav>
+    </header>
+
+    <main>
+        <table>
+            <tr>
+                <td onclick="afficherNombres(id)" id="1">1</td>
+                <td onclick="afficherNombres(id)" id="2">2</td>
+                <td onclick="afficherNombres(id)" id="3">3</td>
+                <td rowspan="3" onclick="onClickSurValider()" id="=">=</td>
+            </tr>
+            <tr>
+                <td onclick="afficherNombres(id)" id="4">4</td>
+                <td onclick="afficherNombres(id)" id="5">5</td>
+                <td onclick="afficherNombres(id)" id="6">6</td>
+            </tr>
+            <tr>
+                <td onclick="afficherNombres(id)" id="7">7</td>
+                <td onclick="afficherNombres(id)" id="8">8</td>
+                <td onclick="afficherNombres(id)" id="9">9</td>
+                
+            </tr>
+            <tr>
+                <td onclick="onClickSurOperateur('+')" id="+">+</td>
+                <td onclick="onClickSurOperateur('-')" id="-">-</td>
+                <td onclick="onClickSurOperateur('/')" id="/">/</td>
+                <td onclick="onClickSurOperateur('*')" id="*">*</td>
+            </tr>
+        </table>
+        <div class="resultat">
+            <form>
+                <button class="btn" type="reset">Effacer</button>
+                <input id="afficher" type="text">
+            </form>
+            
+        </div>
+        
+    </main>
+
+    <footer>
+
+    </footer>
+</body>
+</html>

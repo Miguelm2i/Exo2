@@ -1,0 +1,58 @@
+header {
+    background-color: royalblue;
+    padding: 50px;
+}
+
+header nav {
+    display: flex;
+    justify-content: space-around;
+}
+
+body {
+    background-color: beige;
+    font-family: 'PT Sans', sans-serif;
+}
+
+header img {
+    width: 75px;
+    background-color: beige;
+    border-radius: 30%;
+}
+
+header nav a {
+    font-size: 40px;
+    color: white;
+    text-decoration: none;
+    font-style: italic;
+}
+table {
+    width: 20%;
+    margin:100px auto 20px auto;
+}
+table td {
+    text-align:center;
+    padding:15px;
+    font-size:30px;
+    background-color:royalblue;
+    color:white;
+}
+.btn {
+    border: 0;
+    background-color:royalblue;
+    padding:20px;
+    color:white;
+    margin-bottom: 20px;
+}
+.resultat {
+    width: 20%;
+    margin: 20px auto 10px auto;
+}
+.resultat input {
+    width:100%;
+    border: 0;
+    background-color:royalblue;
+    padding:20px 0px;
+    color:white;
+    font-size: 30px;
+    text-align:center;
+}
